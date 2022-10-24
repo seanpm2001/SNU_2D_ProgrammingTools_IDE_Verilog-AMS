@@ -32,10 +32,11 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
-# BitBake source file
-*.bb linguist-detectable=true
-*.bb linguist-documentation=false
-*.bb linguist-language=BitBake
+# Verilog AMS source file
+# Defaulting to Verilog, as GitHub doesn't recognize the AMS variant
+*.v linguist-detectable=true
+*.v linguist-documentation=false
+*.v linguist-language=Verilog
 # JSON (JavaScript Object Notation) source file
 *.json linguist-detectable=false
 *.json linguist-documentation=false
@@ -173,7 +174,7 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 2 (2022, Tuesday, August 30th at 2:34 pm PST)
-# Line count (including blank lines and compiler line): 180
+# File type: gitattributes file (*.gitattributes)
+# File version: 3 (2022, Monday, October 24th at 3:15 pm PST)
+# Line count (including blank lines and compiler line): 181
 # End of script
